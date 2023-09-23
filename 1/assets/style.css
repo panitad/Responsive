@@ -1,0 +1,25 @@
+body {
+    background-color: #008000;
+}
+
+h1, p {
+    color: #ffee07;
+}
+
+@media screen and (max-width:979px) {
+    body {
+        background-color: #1515ff;
+    }
+    h1, p {
+        color: #fff;
+    }
+}
+
+@media screen and (max-width:600px) {
+    body {
+        background-color: #000;
+    }
+    h1, p {
+        color: #fff;
+    }
+}
